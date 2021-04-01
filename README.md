@@ -1,3 +1,3 @@
-# Description
+# A python project
 
-Some python projects!
+This is dice rolling simulator. Enjoy!
