@@ -11,12 +11,12 @@ if key=='S':
         dice1 = randint(1, 6)
         dice2 = randint(1, 6)
         dice3 = randint(1, 6)
-        total = dice1 + dice2 + dice3 # According to what you have set above
+        total = dice1 + dice2 + dice3 
         print(f"First dice: {dice1}")
         print(f"Second dice: {dice2}")
         print(f"Third dice: {dice3}")
         print(f"Total points: {total}")
-        if total>12:
+        if total>12:                        # According to what you have set above
             print("Hey, you won. Congratulation!")
         else:
             print("Sorry, you lost.")
